@@ -1,6 +1,6 @@
 <?php
 
-namespace Spider\Filemanager;
+namespace Rvmehta745\Filemanager;
 
 use Illuminate\Support\ServiceProvider;
 
