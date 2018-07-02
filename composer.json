@@ -1,0 +1,12 @@
+{
+    "name": "spider/filemanager",
+    "description": "This package is used to manage uploaded files",
+    "authors": [
+        {
+            "name": "Ravi Mehta",
+            "email": "rvmehta745@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {}
+}
