@@ -24,5 +24,9 @@ class FilemanagerServiceProvider extends ServiceProvider
     public function register()
     {
         //
+        $this->app->singleton(Filemanager::class, function () {
+            return new Filemanager();
+        });
+        $this->app->alias(Filemanager::class, 'Filemanager');
     }
 }
