@@ -7,6 +7,11 @@
             "email": "rvmehta745@gmail.com"
         }
     ],
-	"minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rvmehta745\\Filemanager\\": "src/"
+        }
+    }
 }
